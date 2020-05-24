@@ -1,0 +1,130 @@
+* {
+    padding-top: 5px;
+}
+
+
+
+
+.tweet-btn{
+    color: white;
+    background: orange;
+    cursor: pointer;
+    height: 48px;
+    width: 210px;
+    border-radius: 24px;
+    font-size: x-large;
+    
+
+    
+
+           } 
+
+.tweet-btn:hover{
+    background: rgb(248, 179, 115);
+    font-size: x-large;
+    
+}
+
+.nav-list li{
+color:  black;
+margin-top: 30px;
+    background: white;
+    cursor: pointer;
+    height: 48px;
+    width: 165px;
+    border-radius: 24px;
+    vertical-align: middle;
+    
+    
+
+           } 
+
+
+.nav-list li:hover{
+    background: orange;
+    color:rgb(235, 200, 106);
+    color: white;
+}
+
+.nav-list {
+   padding: 0;
+   font-size: x-large;
+  
+    }
+
+ul {
+    list-style-type: none;
+   }
+
+   .tweet-content{
+    cursor: pointer;
+    height: 35px;
+    width: 80px;
+    margin-top: 7px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 18px !important;
+    color: white;
+    background: orange;
+    border-radius: 13px;
+} 
+.tweet-content:hover{ 
+    background: rgb(248, 179, 115);
+   }
+
+    
+
+
+
+           textarea{
+               width: 100%;
+           }
+
+   h3{
+    color: rgb(241, 205, 138);
+   font-style: italic;
+   font-size: 16px !important;
+
+   }
+   #searchInput{
+    border: solid 0.5px orange;
+    width: 170px;
+    margin-top: 10px;
+
+
+   }
+
+   .tweet-area{
+       border: solid 0.5px orange;
+       padding-bottom: 30px;
+       padding-left: 10px;
+       padding-right: 10px;
+       padding-top: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+    margin-top: 10px;
+
+
+   }
+#tweetListArea{
+    width: 100%;
+
+}
+
+iframe {
+    height: 100%;
+    border: none;
+    margin-top: 15px;
+}
+ 
+  
+#tweetArea{
+    border: solid 0.5px rgb(245, 220, 175);
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.last-class{
+    margin-top: 10px;
+}
