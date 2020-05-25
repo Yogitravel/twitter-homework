@@ -127,17 +127,17 @@ let likeTweet = (index) => {
 function hastag(message) {
   console.log("check")
   return message.split(" ").map((elm, index) => {
+
     if (elm.startsWith("#")) {
       // hashTag.push(elm)
+      return `<a href="#">${elm} </a>`
+
+    } else if (elm.startsWith("@")) {
+      //peopleTag.push(elm)
       return `<a href="#">${elm} </a>`
     } else {
       return elm;
     }
-  }).join(" ");
 
+  }).join("");
 }
-
-
-
-
-
